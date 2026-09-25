@@ -1,16 +1,18 @@
 {
-  "name": "corporate-asset-management",
+  "name": "caet-test",
   "type": "module",
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "deploy": "bun run build && wrangler deploy"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^11.0.0",
     "@tailwindcss/vite": "^4.0.0",
     "astro": "^4.16.19",
-    "tailwindcss": "^4.0.0"
+    "tailwindcss": "^4.0.0",
+    "wrangler": "^3.100.0"
   }
 }
