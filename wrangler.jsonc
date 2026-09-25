@@ -9,6 +9,9 @@
   "observability": {
     "enabled": true
   },
+  "build": {
+    "command": "bun run build"
+  },
   "assets": {
     "binding": "ASSETS",
     "directory": "dist"
